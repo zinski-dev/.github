@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Request new work
+    url: https://github.com/zinski-dev/backlog/issues/new/choose
+    about: New work enters through the studio's inbox, where it is triaged and sent to the right repository.
