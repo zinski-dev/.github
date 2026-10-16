@@ -1,6 +1,6 @@
 # .github
 
-The organization's defaults. GitHub reads this repository for two things:
+The organization's defaults: the profile and the default templates, which GitHub reads from here, and the identity file.
 
 | Path | What it does |
 | --- | --- |

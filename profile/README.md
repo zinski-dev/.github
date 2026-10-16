@@ -35,9 +35,4 @@ flowchart LR
     subgraph product[Product]
         banca
     end
-    backlog -->|triaged requests| banca
-    agentplatform -->|delivery process| banca
-    infrastructure -->|runs the agents| agentplatform
-    handbook -.->|rules| platform
-    handbook -.->|rules| product
 ```
