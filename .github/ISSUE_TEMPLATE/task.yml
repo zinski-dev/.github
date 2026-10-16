@@ -1,0 +1,24 @@
+name: Task in this repository
+description: A task that belongs to this repository. Requests for new work go to the inbox instead.
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What
+      description: What should change, in a few sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: Why it matters, and what happens if it waits.
+    validations:
+      required: true
+  - type: textarea
+    id: done-when
+    attributes:
+      label: Done when
+      description: How you will know it is done.
+    validations:
+      required: true
